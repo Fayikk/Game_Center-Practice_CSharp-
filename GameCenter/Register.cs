@@ -14,6 +14,10 @@ namespace GameCenter
         public int Id { get; set; }
         public int CompanyNumber { get; set; }
         public string CompanyName { get; set; }
+        public string ProductName { get; set; }
+        public int ProductPrice { get; set; }
+        public string OfferName { get; set; }
+
 
     }
 }

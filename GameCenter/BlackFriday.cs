@@ -13,6 +13,11 @@ namespace GameCenter
             Console.WriteLine("Kara Cuma kampanyası uygulandı");
         }
 
+        public void Activation(Offerr offerr)
+        {
+            throw new NotImplementedException();
+        }
+
         public void delete()
         {
             Console.WriteLine("Black friday kampanyası silinmiştir");
@@ -26,6 +31,11 @@ namespace GameCenter
         public void Updated()
         {
             Console.WriteLine("Black friday kampanyası güncellenmiştir");
+        }
+
+        public void Updated(Offerr offer)
+        {
+            throw new NotImplementedException();
         }
     }
 }

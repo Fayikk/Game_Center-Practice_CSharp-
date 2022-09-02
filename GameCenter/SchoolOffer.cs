@@ -28,5 +28,10 @@ namespace GameCenter
         {
             Console.WriteLine("Okul kampanyası güncellenmiştir");
         }
+
+        public void Updated(Offerr offer)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

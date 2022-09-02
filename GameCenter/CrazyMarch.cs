@@ -29,5 +29,10 @@ namespace GameCenter
         {
             Console.WriteLine("Crazy March kampanyası güncellendi");
         }
+
+        public void Updated(Offerr offer)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
