@@ -9,5 +9,6 @@ namespace GameCenter
     public interface IVerify
     {
         void Log();
+       
     }
 }

@@ -12,5 +12,10 @@ namespace GameCenter
         {
             Console.WriteLine("Şirketiniz başarıyla oluşturuldu");
         }
+
+        public void Show(Company company)
+        {
+            
+        }
     }
 }

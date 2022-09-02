@@ -13,10 +13,21 @@ namespace GameCenter
             Console.WriteLine("Crazy march kampanyası uygulandı");
         }
 
+        public void delete()
+        {
+            Console.WriteLine("Crazy march kampanyası silinmiştir");
+
+        }
+
         public void Price(Gamer gamer, Company company)
         {
             Console.WriteLine(gamer.Name + " kişisi " + company.CompanyName + " şirketiyle crazy march kampanyasından faydalandı");
 
+        }
+
+        public void Updated()
+        {
+            Console.WriteLine("Crazy March kampanyası güncellendi");
         }
     }
 }

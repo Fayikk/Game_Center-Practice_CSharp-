@@ -10,6 +10,8 @@ namespace GameCenter
     {
         void Price(Gamer gamer,Company company);
         void Activation();
+        void delete();
+        void Updated();
         
     }
 }

@@ -13,12 +13,20 @@ namespace GameCenter
             Console.WriteLine("Okul kampanyası uygulandı");
         }
 
-        
+        public void delete()
+        {
+            Console.WriteLine("Okul kampanyası silinmiştir");
+        }
 
         public void Price(Gamer gamer, Company company)
         {
             Console.WriteLine(gamer.Name + " kişisi " + company.CompanyName + " şirketiyle school offer kampanyasından faydalandı");
 
+        }
+
+        public void Updated()
+        {
+            Console.WriteLine("Okul kampanyası güncellenmiştir");
         }
     }
 }

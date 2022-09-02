@@ -12,7 +12,10 @@ namespace GameCenter
         {
             Console.WriteLine("Başarıyla giriş yapıldı(E devlet kontolü ile)");
         }
-        
-        
+
+        public void Show()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

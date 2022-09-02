@@ -13,9 +13,19 @@ namespace GameCenter
             Console.WriteLine("Kara Cuma kampanyası uygulandı");
         }
 
+        public void delete()
+        {
+            Console.WriteLine("Black friday kampanyası silinmiştir");
+        }
+
         public void Price(Gamer gamer, Company company)
         {
             Console.WriteLine(gamer.Name+ " kişisi "+company.CompanyName+" şirketiyle black friday kampanyasından faydalandı");
+        }
+
+        public void Updated()
+        {
+            Console.WriteLine("Black friday kampanyası güncellenmiştir");
         }
     }
 }
